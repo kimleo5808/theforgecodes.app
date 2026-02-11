@@ -325,14 +325,14 @@
     },
     {
       "date": "2026-02-11",
-      "generatedAt": "2026-02-11T03:29:10.632Z",
-      "lastVerified": "February 11 2026 at 03:29 UTC",
+      "generatedAt": "2026-02-11T09:27:47.932Z",
+      "lastVerified": "February 11 2026 at 09:27 UTC",
       "activeCodes": [
         {
           "code": "REROLLS",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, dexerto, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -340,7 +340,7 @@
           "code": "REROLL",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, dexerto, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -348,7 +348,7 @@
           "code": "FORGEWEEKEND3",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -356,7 +356,7 @@
           "code": "FORGEWEEKEND4",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "beebom, dexerto",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -364,7 +364,7 @@
           "code": "FORGEWEEKEND2",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -372,7 +372,7 @@
           "code": "FORGE2M",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -380,7 +380,7 @@
           "code": "20KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -388,7 +388,7 @@
           "code": "100KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -396,7 +396,7 @@
           "code": "40KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -404,7 +404,7 @@
           "code": "10KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -412,7 +412,7 @@
           "code": "15KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -420,7 +420,7 @@
           "code": "FORGED",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -428,7 +428,7 @@
           "code": "FORGWEEKEND",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -436,7 +436,7 @@
           "code": "HAPPYNEWYEAR",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -444,7 +444,7 @@
           "code": "5KLIKES",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides, beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -452,7 +452,7 @@
           "code": "75MVISITS",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "tryhardguides",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -460,7 +460,7 @@
           "code": "BLADE",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -468,7 +468,7 @@
           "code": "FREESPINS",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "beebom, pcgamer",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -476,7 +476,7 @@
           "code": "FORGERS",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         },
@@ -484,7 +484,7 @@
           "code": "FORGER",
           "reward": "Reward not listed by source pages",
           "status": "active",
-          "lastTested": "2026-02-11 03:29 UTC",
+          "lastTested": "2026-02-11 09:27 UTC",
           "source": "beebom",
           "note": "Auto-collected from public pages. Verify in-game before use."
         }
@@ -492,121 +492,121 @@
       "expiredCodes": [],
       "updateLog": [
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "REROLLS",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "REROLL",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGEWEEKEND3",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGEWEEKEND4",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGEWEEKEND2",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGE2M",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "20KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "100KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "40KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "10KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "15KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGED",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGWEEKEND",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "HAPPYNEWYEAR",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "5KLIKES",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
-          "event": "added",
+          "time": "2026-02-11 09:27 UTC",
+          "event": "retested",
           "code": "75MVISITS",
-          "summary": "Newly detected from latest source refresh."
+          "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "BLADE",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FREESPINS",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGERS",
           "summary": "Still listed as active in latest source refresh."
         },
         {
-          "time": "2026-02-11 03:29 UTC",
+          "time": "2026-02-11 09:27 UTC",
           "event": "retested",
           "code": "FORGER",
           "summary": "Still listed as active in latest source refresh."
@@ -617,28 +617,28 @@
           "name": "tryhardguides",
           "url": "https://tryhardguides.com/the-forge-codes/",
           "ok": true,
-          "fetchedAt": "2026-02-11T03:29:10.632Z",
+          "fetchedAt": "2026-02-11T09:27:47.932Z",
           "foundCodes": 15
         },
         {
           "name": "beebom",
           "url": "https://beebom.com/roblox-the-forge-codes/",
           "ok": true,
-          "fetchedAt": "2026-02-11T03:29:10.632Z",
+          "fetchedAt": "2026-02-11T09:27:47.932Z",
           "foundCodes": 18
         },
         {
           "name": "dexerto",
           "url": "https://www.dexerto.com/roblox/the-forge-codes-3287134/",
           "ok": true,
-          "fetchedAt": "2026-02-11T03:29:10.632Z",
+          "fetchedAt": "2026-02-11T09:27:47.932Z",
           "foundCodes": 3
         },
         {
           "name": "pcgamer",
           "url": "https://www.pcgamer.com/roblox/the-forge-codes/",
           "ok": true,
-          "fetchedAt": "2026-02-11T03:29:10.632Z",
+          "fetchedAt": "2026-02-11T09:27:47.932Z",
           "foundCodes": 15
         }
       ]
