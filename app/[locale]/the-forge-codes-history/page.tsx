@@ -3,12 +3,12 @@ import HistoryMonthGroup, {
 } from "@/components/forge/HistoryMonthGroup";
 import { BASE_URL } from "@/config/site";
 import { forgeDailySnapshots } from "@/lib/forge-data";
-import { Locale } from "@/i18n/routing";
+import { Locale, LOCALES } from "@/i18n/routing";
 import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import { CalendarClock, Database, Flame } from "lucide-react";
 import { Metadata } from "next";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 
 type Params = Promise<{ locale: string }>;
@@ -42,9 +42,18 @@ function formatMonthLabel(monthKey: string, locale: string) {
   return d.toLocaleDateString(localeMap[locale] || "en-US", { month: "long", year: "numeric" });
 }
 
-export default async function ForgeHistoryPage() {
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
+
+export default async function ForgeHistoryPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations("HistoryPage");
-  const locale = await getLocale();
   // Build snapshots sorted newest first
   const allSnapshots = [...forgeDailySnapshots].reverse();
   const latestDate = allSnapshots[0]?.date ?? "";

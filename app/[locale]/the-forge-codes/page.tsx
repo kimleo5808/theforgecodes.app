@@ -1,8 +1,8 @@
 import ForgeHubPage from "@/components/forge/ForgeHubPage";
-import { Locale } from "@/i18n/routing";
+import { Locale, LOCALES } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Params = Promise<{ locale: string }>;
 
@@ -28,6 +28,16 @@ export async function generateMetadata({
   });
 }
 
-export default function TheForgeCodesPage() {
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
+
+export default async function TheForgeCodesPage({
+  params,
+}: {
+  params: Params;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return <ForgeHubPage />;
 }

@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Link as I18nLink, LOCALE_NAMES, routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
-import { useLocaleStore } from "@/stores/localeStore";
+import Cookies from "js-cookie";
 import { ArrowRight, Globe, X } from "lucide-react";
 import { useLocale } from "next-intl";
 import { useCallback, useEffect, useState } from "react";
@@ -11,29 +11,29 @@ import { useCallback, useEffect, useState } from "react";
 export function LanguageDetectionAlert() {
   const [countdown, setCountdown] = useState(10); // countdown 10s and dismiss
   const [isVisible, setIsVisible] = useState(false);
+  const [showLanguageAlert, setShowLanguageAlert] = useState(false);
   const locale = useLocale();
   const [detectedLocale, setDetectedLocale] = useState<string | null>(null);
-  const {
-    showLanguageAlert,
-    setShowLanguageAlert,
-    dismissLanguageAlert,
-    getLangAlertDismissed,
-  } = useLocaleStore();
+
+  const dismiss = useCallback(() => {
+    Cookies.set("langAlertDismissed", "true", { expires: 30 });
+    setShowLanguageAlert(false);
+  }, []);
 
   const handleDismiss = useCallback(() => {
     setIsVisible(false);
     setTimeout(() => {
-      dismissLanguageAlert();
+      dismiss();
     }, 300);
-  }, [dismissLanguageAlert]);
+  }, [dismiss]);
 
   const handleSwitchLanguage = useCallback(() => {
-    dismissLanguageAlert();
-  }, [dismissLanguageAlert]);
+    dismiss();
+  }, [dismiss]);
 
   useEffect(() => {
-    const detectedLang = navigator.language; // Get full language code, e.g., zh_HK
-    const storedDismiss = getLangAlertDismissed();
+    const detectedLang = navigator.language;
+    const storedDismiss = Cookies.get("langAlertDismissed") === "true";
 
     if (!storedDismiss) {
       let supportedLang = routing.locales.find((l) => l === detectedLang);
@@ -49,7 +49,7 @@ export function LanguageDetectionAlert() {
         setTimeout(() => setIsVisible(true), 100);
       }
     }
-  }, [locale, getLangAlertDismissed, setShowLanguageAlert]);
+  }, [locale]);
 
   useEffect(() => {
     let timer: NodeJS.Timeout;

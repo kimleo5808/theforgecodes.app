@@ -5,12 +5,11 @@ import {
   getForgeMonthSnapshots,
 } from "@/lib/forge-data";
 import { BASE_URL } from "@/config/site";
-import { Locale } from "@/i18n/routing";
+import { Locale, LOCALES } from "@/i18n/routing";
 import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
-import { getLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Params = Promise<{ locale: string }>;
 
@@ -93,9 +92,18 @@ export async function generateMetadata({
   });
 }
 
-export default async function February2026Page() {
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
+
+export default async function February2026Page({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const mt = await getTranslations("MonthPage");
-  const locale = await getLocale();
   const eventLabels = { added: mt("added"), expired: mt("expired"), retested: mt("retested") };
   const monthSnapshots = getForgeMonthSnapshots("2026-02");
   const monthBase = monthSnapshots.length > 0 ? monthSnapshots : [forgeLatestSnapshot];

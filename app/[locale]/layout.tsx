@@ -1,13 +1,11 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAdsense from "@/app/GoogleAdsense";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
-import PlausibleAnalytics from "@/app/PlausibleAnalytics";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import { LanguageDetectionAlert } from "@/components/LanguageDetectionAlert";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { siteConfig } from "@/config/site";
-import { DEFAULT_LOCALE, Locale, routing } from "@/i18n/routing";
+import { DEFAULT_LOCALE, Locale, LOCALES, routing } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
 import { JsonLd, websiteSchema } from "@/lib/jsonld";
 import { cn } from "@/lib/utils";
@@ -28,7 +26,6 @@ const chakraPetch = Chakra_Petch({
   variable: "--font-body",
   display: "swap",
 });
-import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {
@@ -57,6 +54,10 @@ export async function generateMetadata({
     path: `/`,
     canonicalUrl: `/`,
   });
+}
+
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
 }
 
 export const viewport: Viewport = {
@@ -117,11 +118,8 @@ export default async function LocaleLayout({
           <></>
         ) : (
           <>
-            <Analytics />
-            <BaiDuAnalytics />
             <GoogleAnalytics />
             <GoogleAdsense />
-            <PlausibleAnalytics />
           </>
         )}
       </body>

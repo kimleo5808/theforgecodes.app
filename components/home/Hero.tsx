@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
-import { MousePointerClick } from "lucide-react";
+import { MessageCircle, MousePointerClick } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { SiDiscord } from "react-icons/si";
 
 export default function Hero() {
   const t = useTranslations("Home");
@@ -63,7 +62,7 @@ export default function Hero() {
             prefetch={false}
             className="flex items-center gap-2"
           >
-            <SiDiscord className="w-4 h-4 text-indigo-500" />
+            <MessageCircle className="w-4 h-4 text-indigo-500" />
             Join Discord
           </Link>
         </Button>

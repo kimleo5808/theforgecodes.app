@@ -1,11 +1,11 @@
 import { forgeFaq, forgeTroubleshooting } from "@/lib/forge-data";
-import { Locale } from "@/i18n/routing";
+import { Locale, LOCALES } from "@/i18n/routing";
 import { faqPageSchema, JsonLd, breadcrumbSchema } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import { BASE_URL } from "@/config/site";
 import { ChevronDown } from "lucide-react";
 import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type FAQTranslatedItem = { question: string; answer: string };
 
@@ -33,7 +33,17 @@ export async function generateMetadata({
   });
 }
 
-export default async function ForgeFaqPage() {
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
+
+export default async function ForgeFaqPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations("FaqPage");
   const ft = await getTranslations("ForgeSections");
 

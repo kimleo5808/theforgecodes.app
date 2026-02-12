@@ -14,7 +14,7 @@ import {
   usePathname,
   useRouter,
 } from "@/i18n/routing";
-import { useLocaleStore } from "@/stores/localeStore";
+import Cookies from "js-cookie";
 import { Globe } from "lucide-react";
 import { useLocale } from "next-intl";
 import { useParams } from "next/navigation";
@@ -25,7 +25,6 @@ export default function LocaleSwitcher() {
   const pathname = usePathname();
   const params = useParams();
   const locale = useLocale();
-  const { dismissLanguageAlert } = useLocaleStore();
   const [, startTransition] = useTransition();
   const [currentLocale, setCurrentLocale] = useState("locale");
 
@@ -35,7 +34,7 @@ export default function LocaleSwitcher() {
 
   function onSelectChange(nextLocale: Locale) {
     setCurrentLocale(nextLocale);
-    dismissLanguageAlert();
+    Cookies.set("langAlertDismissed", "true", { expires: 30 });
 
     startTransition(() => {
       router.replace(
