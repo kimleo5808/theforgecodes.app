@@ -88,6 +88,7 @@ export default async function LocaleLayout({
     <html lang={locale || DEFAULT_LOCALE} suppressHydrationWarning>
       <head>
         <JsonLd data={websiteSchema()} />
+        {process.env.NODE_ENV !== "development" && <GoogleAdsense />}
       </head>
       <body
         className={cn(
@@ -114,14 +115,7 @@ export default async function LocaleLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
         <TailwindIndicator />
-        {process.env.NODE_ENV === "development" ? (
-          <></>
-        ) : (
-          <>
-            <GoogleAnalytics />
-            <GoogleAdsense />
-          </>
-        )}
+        {process.env.NODE_ENV !== "development" && <GoogleAnalytics />}
       </body>
     </html>
   );
