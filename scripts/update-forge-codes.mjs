@@ -139,7 +139,54 @@ function sanitizeToText(html) {
     .trim();
 }
 
-function isLikelyGameCode(code) {
+function hasCodeContextSignal(context) {
+  return (
+    context.includes(" CODE ") ||
+    context.includes(" CODES ") ||
+    context.includes(" REDEEM ") ||
+    context.includes(" REWARD ") ||
+    context.includes(" ACTIVE ") ||
+    context.includes(" EXPIRED ") ||
+    context.includes(" WORKING ") ||
+    context.includes(" REROLL ") ||
+    context.includes(" REROLLS ") ||
+    context.includes(" SPIN ") ||
+    context.includes(" TOTEM ")
+  );
+}
+
+function hasRewardContextSignal(context) {
+  return (
+    context.includes(" REROLL ") ||
+    context.includes(" REROLLS ") ||
+    context.includes(" SPIN ") ||
+    context.includes(" SPINS ") ||
+    context.includes(" TOTEM ") ||
+    context.includes(" LUCK ") ||
+    context.includes(" POTION ") ||
+    context.includes(" REWARD ")
+  );
+}
+
+function hasStrongCodeSignal(code) {
+  return (
+    /[0-9!]/.test(code) ||
+    code.startsWith("FORGE") ||
+    code.includes("REROLL") ||
+    code.includes("SPIN") ||
+    code.includes("BOOST") ||
+    code.includes("WEEKEND") ||
+    code.includes("WINTER") ||
+    code.includes("XMAS") ||
+    code.includes("NEWYEAR") ||
+    code.includes("RELAUNCH") ||
+    code.includes("RACE") ||
+    code.includes("BLADE") ||
+    code.includes("GEAR")
+  );
+}
+
+function isLikelyGameCode(code, context = "") {
   if (code.length < 5 || code.length > 20) {
     return false;
   }
@@ -161,24 +208,20 @@ function isLikelyGameCode(code) {
   if (code.includes("__") || code.includes("--")) {
     return false;
   }
-  const hasStrongSignal =
-    /[0-9!]/.test(code) ||
-    code.startsWith("FORGE") ||
-    code.includes("REROLL") ||
-    code.includes("SPIN") ||
-    code.includes("BOOST") ||
-    code.includes("WEEKEND") ||
-    code.includes("WINTER") ||
-    code.includes("XMAS") ||
-    code.includes("NEWYEAR") ||
-    code.includes("RELAUNCH") ||
-    code.includes("RACE") ||
-    code.includes("BLADE") ||
-    code.includes("GEAR");
-  if (!hasStrongSignal) {
-    return false;
+
+  const hasStrongSignal = hasStrongCodeSignal(code);
+  if (hasStrongSignal) {
+    return true;
   }
-  return true;
+
+  // Some real codes are alphabetic only (e.g. DELAYCOMPENSATION), so allow
+  // longer tokens only when they appear in code-like contexts.
+  const alphaOnly = /^[A-Z]+$/.test(code);
+  if (alphaOnly && code.length >= 10 && hasCodeContextSignal(context)) {
+    return true;
+  }
+
+  return false;
 }
 
 function countHintHits(context, hints) {
@@ -200,9 +243,6 @@ function extractCodesFromText(text, sourceWeight) {
   CODE_PATTERN.lastIndex = 0;
   while ((match = CODE_PATTERN.exec(uppercaseText)) !== null) {
     const code = match[0].trim();
-    if (!isLikelyGameCode(code)) {
-      continue;
-    }
 
     const seen = occurrences.get(code) ?? 0;
     if (seen >= MAX_OCCURRENCES_PER_SOURCE) {
@@ -213,13 +253,18 @@ function extractCodesFromText(text, sourceWeight) {
     const start = Math.max(0, match.index - 140);
     const end = Math.min(uppercaseText.length, match.index + code.length + 140);
     const context = uppercaseText.slice(start, end);
+    if (!isLikelyGameCode(code, context)) {
+      continue;
+    }
     const activeHits = countHintHits(context, ACTIVE_HINTS);
     const expiredHits = countHintHits(context, EXPIRED_HINTS);
 
     const existing = aggregate.get(code) ?? {
       activeScore: 0,
       expiredScore: 0,
-      sourceCount: 0,
+      // Per-source aggregate: this code has been observed in this source.
+      sourceCount: 1,
+      rewardContextHits: 0,
     };
 
     if (expiredHits > activeHits) {
@@ -228,7 +273,9 @@ function extractCodesFromText(text, sourceWeight) {
       existing.activeScore += sourceWeight * (activeHits + 1);
     }
 
-    existing.sourceCount += 1;
+    if (hasRewardContextSignal(context)) {
+      existing.rewardContextHits += 1;
+    }
     aggregate.set(code, existing);
   }
 
@@ -241,7 +288,15 @@ function pickCodesFromAggregate(aggregateMap) {
     ...metrics,
   }));
 
-  const active = records
+  const filteredRecords = records.filter((item) => {
+    if (hasStrongCodeSignal(item.code)) {
+      return true;
+    }
+    // Weak alphabetic matches are only accepted after cross-source support.
+    return item.sourceCount >= 2;
+  });
+
+  const active = filteredRecords
     .filter((item) => item.activeScore >= item.expiredScore)
     .sort((a, b) => {
       if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
@@ -249,7 +304,7 @@ function pickCodesFromAggregate(aggregateMap) {
       return a.code.localeCompare(b.code);
     });
 
-  const expired = records
+  const expired = filteredRecords
     .filter((item) => item.expiredScore > item.activeScore)
     .sort((a, b) => {
       if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
@@ -431,7 +486,8 @@ async function main() {
 
   const store = await readSnapshotStore();
   const sortedSnapshots = [...store.snapshots].sort((a, b) => a.date.localeCompare(b.date));
-  const previousSnapshot = sortedSnapshots[sortedSnapshots.length - 1];
+  const snapshotsBeforeToday = sortedSnapshots.filter((snapshot) => snapshot.date !== today);
+  const previousSnapshot = snapshotsBeforeToday[snapshotsBeforeToday.length - 1];
   const previousLookup = createPreviousCodeLookup(previousSnapshot);
 
   const sourceResults = await Promise.all(
@@ -447,10 +503,12 @@ async function main() {
         activeScore: 0,
         expiredScore: 0,
         sourceCount: 0,
+        rewardContextHits: 0,
       };
       existing.activeScore += metrics.activeScore;
       existing.expiredScore += metrics.expiredScore;
       existing.sourceCount += metrics.sourceCount;
+      existing.rewardContextHits += metrics.rewardContextHits ?? 0;
       globalAggregate.set(code, existing);
 
       const codeSources = sourceMap.get(code) ?? new Set();
@@ -522,8 +580,7 @@ async function main() {
     })),
   };
 
-  const withoutToday = sortedSnapshots.filter((snapshot) => snapshot.date !== today);
-  const nextSnapshots = [...withoutToday, newSnapshot]
+  const nextSnapshots = [...snapshotsBeforeToday, newSnapshot]
     .sort((a, b) => a.date.localeCompare(b.date))
     .slice(-MAX_SNAPSHOTS);
 
