@@ -3,7 +3,6 @@ import {
   ArrowRight,
   CalendarClock,
   ChevronDown,
-  CircleDot,
   Flame,
   Gift,
   ListChecks,
@@ -13,6 +12,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
+import { CodeCard } from "./code-card";
 
 const latestSnapshot = forgeRecentSnapshots[0];
 const latestActivePreview = (latestSnapshot?.activeCodes ?? []).slice(0, 8);
@@ -215,20 +215,7 @@ export default async function HomeComponent() {
 
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {latestActivePreview.map((item) => (
-                <div
-                  key={item.code}
-                  className="group rounded-xl border border-slate-100 bg-slate-50/50 p-4 transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/50 dark:hover:border-indigo-800"
-                >
-                  <div className="flex items-center gap-2">
-                    <CircleDot className="h-3 w-3 text-emerald-500" />
-                    <p className="font-mono text-sm font-bold text-indigo-700 dark:text-indigo-300">
-                      {item.code}
-                    </p>
-                  </div>
-                  <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
-                    {item.reward}
-                  </p>
-                </div>
+                <CodeCard key={item.code} code={item.code} />
               ))}
             </div>
 
