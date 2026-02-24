@@ -1,4 +1,5 @@
 import { ForgeDailySnapshotArchive } from "@/components/forge/ForgeSections";
+import { ForgeCodeCard } from "@/components/forge/ForgeCodeCard";
 import { BASE_URL } from "@/config/site";
 import { Locale, LOCALES } from "@/i18n/routing";
 import {
@@ -9,7 +10,7 @@ import {
 } from "@/lib/forge-data";
 import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
-import { CheckCircle2, ChevronDown, CircleX } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -96,47 +97,25 @@ function formatDelta(current: number, previous: number): string {
   return `${delta}`;
 }
 
-function CodeList({
+async function CodeList({
   title,
   codes,
+  statusLabel,
 }: {
   title: string;
   codes: ForgeCode[];
+  statusLabel: string;
 }) {
   return (
     <section className="rounded-2xl border border-indigo-100 bg-white p-6 dark:border-indigo-900/40 dark:bg-slate-950">
       <h2 className="font-heading text-2xl font-bold text-slate-900 dark:text-slate-100">
         {title}
       </h2>
-      <ul className="mt-4 grid gap-3">
+      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {codes.map((item) => (
-          <li
-            key={item.code}
-            className={`rounded-xl border p-4 ${
-              item.status === "active"
-                ? "border-emerald-200 bg-emerald-50/40 dark:border-emerald-900/50 dark:bg-emerald-900/10"
-                : "border-indigo-100 dark:border-indigo-900/50"
-            }`}
-          >
-            <div className="flex items-center gap-2">
-              {item.status === "active" ? (
-                <CheckCircle2 className="h-4 w-4 text-emerald-500" />
-              ) : (
-                <CircleX className="h-4 w-4 text-rose-400" />
-              )}
-              <p className="font-mono font-semibold text-indigo-700 dark:text-indigo-300">
-                {item.code}
-              </p>
-            </div>
-            <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
-              {item.reward}
-            </p>
-            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-              {item.lastTested} · {item.source}
-            </p>
-          </li>
+          <ForgeCodeCard key={item.code} code={item} statusLabel={statusLabel} />
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
@@ -199,6 +178,12 @@ export default async function DailyForgeCodesPage({
   const previousSnapshot = getPreviousSnapshot(snapshot.date);
   const formattedDate = toLongDate(snapshot.date, locale);
   const eventLabels = { added: dt("added"), expired: dt("expired"), retested: dt("retested") };
+
+  const st = await getTranslations("ForgeSections");
+  const statusLabels = {
+    active: st("statusLabels.active"),
+    expired: st("statusLabels.expired"),
+  };
 
   const activeCount = snapshot.activeCodes.length;
   const expiredCount = snapshot.expiredCodes.length;
@@ -267,8 +252,8 @@ export default async function DailyForgeCodesPage({
             </p>
           </section>
 
-          <CodeList title={dt("activeCodes")} codes={snapshot.activeCodes} />
-          <CodeList title={dt("expiredCodes")} codes={snapshot.expiredCodes} />
+          <CodeList title={dt("activeCodes")} codes={snapshot.activeCodes} statusLabel={statusLabels.active} />
+          <CodeList title={dt("expiredCodes")} codes={snapshot.expiredCodes} statusLabel={statusLabels.expired} />
 
           {/* How to redeem */}
           <section className="rounded-2xl border border-indigo-100 bg-white p-6 dark:border-indigo-900/40 dark:bg-slate-950">
