@@ -56,14 +56,6 @@
           "title": "Guides",
           "links": [
             {
-              "href": "/how-to-redeem-the-forge-codes",
-              "name": "How to Redeem"
-            },
-            {
-              "href": "/the-forge-codes-faq",
-              "name": "FAQ"
-            },
-            {
               "href": "/the-forge-wiki",
               "name": "Wiki"
             },
@@ -72,8 +64,49 @@
               "name": "Beginner Guide"
             },
             {
+              "href": "/how-to-redeem-the-forge-codes",
+              "name": "How to Redeem"
+            },
+            {
+              "href": "/the-forge-codes-faq",
+              "name": "FAQ"
+            }
+          ]
+        },
+        {
+          "title": "Game Info",
+          "links": [
+            {
               "href": "/the-forge-race-tier-list",
               "name": "Race Tier List"
+            },
+            {
+              "href": "/the-forge-ores-guide",
+              "name": "Ores Guide"
+            },
+            {
+              "href": "/the-forge-pickaxes-guide",
+              "name": "Pickaxes Guide"
+            },
+            {
+              "href": "/the-forge-weapons-guide",
+              "name": "Weapons Guide"
+            },
+            {
+              "href": "/the-forge-enemies-guide",
+              "name": "Enemies Guide"
+            },
+            {
+              "href": "/the-forge-runes-guide",
+              "name": "Runes Guide"
+            },
+            {
+              "href": "/the-forge-totems-guide",
+              "name": "Totems Guide"
+            },
+            {
+              "href": "/the-forge-quests-guide",
+              "name": "Quests Guide"
             }
           ]
         },

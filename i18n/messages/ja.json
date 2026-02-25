@@ -56,14 +56,6 @@
           "title": "ガイド",
           "links": [
             {
-              "href": "/how-to-redeem-the-forge-codes",
-              "name": "引き換え方法"
-            },
-            {
-              "href": "/the-forge-codes-faq",
-              "name": "よくある質問"
-            },
-            {
               "href": "/the-forge-wiki",
               "name": "Wiki"
             },
@@ -72,8 +64,49 @@
               "name": "初心者ガイド"
             },
             {
+              "href": "/how-to-redeem-the-forge-codes",
+              "name": "引き換え方法"
+            },
+            {
+              "href": "/the-forge-codes-faq",
+              "name": "よくある質問"
+            }
+          ]
+        },
+        {
+          "title": "ゲーム情報",
+          "links": [
+            {
               "href": "/the-forge-race-tier-list",
               "name": "種族ティアリスト"
+            },
+            {
+              "href": "/the-forge-ores-guide",
+              "name": "鉱石ガイド"
+            },
+            {
+              "href": "/the-forge-pickaxes-guide",
+              "name": "つるはしガイド"
+            },
+            {
+              "href": "/the-forge-weapons-guide",
+              "name": "武器ガイド"
+            },
+            {
+              "href": "/the-forge-enemies-guide",
+              "name": "敵ガイド"
+            },
+            {
+              "href": "/the-forge-runes-guide",
+              "name": "ルーンガイド"
+            },
+            {
+              "href": "/the-forge-totems-guide",
+              "name": "トーテムガイド"
+            },
+            {
+              "href": "/the-forge-quests-guide",
+              "name": "クエストガイド"
             }
           ]
         },

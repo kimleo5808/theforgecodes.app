@@ -56,14 +56,6 @@
           "title": "指南",
           "links": [
             {
-              "href": "/how-to-redeem-the-forge-codes",
-              "name": "如何兑换"
-            },
-            {
-              "href": "/the-forge-codes-faq",
-              "name": "常见问题"
-            },
-            {
               "href": "/the-forge-wiki",
               "name": "百科"
             },
@@ -72,8 +64,49 @@
               "name": "新手指南"
             },
             {
+              "href": "/how-to-redeem-the-forge-codes",
+              "name": "如何兑换"
+            },
+            {
+              "href": "/the-forge-codes-faq",
+              "name": "常见问题"
+            }
+          ]
+        },
+        {
+          "title": "游戏攻略",
+          "links": [
+            {
               "href": "/the-forge-race-tier-list",
               "name": "种族排行"
+            },
+            {
+              "href": "/the-forge-ores-guide",
+              "name": "矿石攻略"
+            },
+            {
+              "href": "/the-forge-pickaxes-guide",
+              "name": "镐攻略"
+            },
+            {
+              "href": "/the-forge-weapons-guide",
+              "name": "武器攻略"
+            },
+            {
+              "href": "/the-forge-enemies-guide",
+              "name": "敌人攻略"
+            },
+            {
+              "href": "/the-forge-runes-guide",
+              "name": "符文攻略"
+            },
+            {
+              "href": "/the-forge-totems-guide",
+              "name": "图腾攻略"
+            },
+            {
+              "href": "/the-forge-quests-guide",
+              "name": "任务攻略"
             }
           ]
         },
