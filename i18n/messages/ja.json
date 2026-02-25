@@ -22,6 +22,10 @@
       {
         "name": "履歴",
         "href": "/the-forge-codes-history"
+      },
+      {
+        "name": "Wiki",
+        "href": "/the-forge-wiki"
       }
     ]
   },
@@ -58,6 +62,18 @@
             {
               "href": "/the-forge-codes-faq",
               "name": "よくある質問"
+            },
+            {
+              "href": "/the-forge-wiki",
+              "name": "Wiki"
+            },
+            {
+              "href": "/the-forge-beginner-guide",
+              "name": "初心者ガイド"
+            },
+            {
+              "href": "/the-forge-race-tier-list",
+              "name": "種族ティアリスト"
             }
           ]
         },
@@ -412,5 +428,45 @@
     "expiredLabel": "期限切れ",
     "addedLabel": "追加",
     "expiredEvents": "期限切れイベント"
+  },
+  "ForgeWiki": {
+    "title": "The Forge Wiki — 完全Robloxゲームガイド (2026)",
+    "description": "The Forge Roblox 完全Wiki。種族、鉱石、ツルハシ、武器、防具、ルーン、クエスト、全ゲームメカニクスを網羅。"
+  },
+  "RaceTierList": {
+    "title": "The Forge 種族ティアリスト — 全16種族ランキング (2026)",
+    "description": "The Forge Roblox 完全種族ティアリスト。ドロップ率、特性、リロール戦略、おすすめ種族を掲載。"
+  },
+  "OresGuide": {
+    "title": "The Forge 鉱石一覧 — 完全採掘ガイド (2026)",
+    "description": "The Forge Roblox 全鉱石をエリア・レア度別に分類。採掘のコツ、レア鉱石の場所、鍛造レシピを掲載。"
+  },
+  "PickaxesGuide": {
+    "title": "The Forge ツルハシ一覧 — ガイド＆ティアリスト (2026)",
+    "description": "The Forge Roblox 完全ツルハシガイド。全ツルハシのステータス、価格、アップグレードパス、隠しツルハシの場所。"
+  },
+  "WeaponsGuide": {
+    "title": "The Forge 武器一覧 — 鍛造ガイド＆ティアリスト (2026)",
+    "description": "The Forge Roblox 完全武器リストとティアリスト。鍛造レシピ、鉱石要件、鍛造のコツ、最強武器ビルドを掲載。"
+  },
+  "EnemiesGuide": {
+    "title": "The Forge 敵一覧 — 完全戦闘ガイド (2026)",
+    "description": "The Forge Roblox 全敵とボスをエリア別に掲載。HP、ダメージ、ドロップ、各遭遇の戦闘戦略。"
+  },
+  "RunesGuide": {
+    "title": "The Forge ルーンガイド — 全ルーン＆最強ビルド (2026)",
+    "description": "The Forge Roblox 完全ルーンガイド。全ルーンの効果、採掘・戦闘・ハイブリッドの最強ビルド構成。"
+  },
+  "BeginnerGuide": {
+    "title": "The Forge 初心者ガイド — 遊び方 (2026)",
+    "description": "The Forge Roblox 初心者向けガイド。最初の30分の攻略、コアメカニクス、よくある間違い、素早い進め方のコツ。"
+  },
+  "TotemsGuide": {
+    "title": "The Forge トーテム一覧 — 完全ガイド (2026)",
+    "description": "The Forge Roblox 全トーテム解説。効果、持続時間、価格、無料トーテムコード、優先購入のおすすめ。"
+  },
+  "QuestsGuide": {
+    "title": "The Forge クエスト一覧 — 完全ガイド＆報酬 (2026)",
+    "description": "The Forge Roblox 完全クエストリスト。NPC位置、目標、報酬、おすすめクリア順序を掲載。"
   }
 }

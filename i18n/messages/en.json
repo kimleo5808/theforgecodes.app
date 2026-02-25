@@ -22,6 +22,10 @@
       {
         "name": "History",
         "href": "/the-forge-codes-history"
+      },
+      {
+        "name": "Wiki",
+        "href": "/the-forge-wiki"
       }
     ]
   },
@@ -58,6 +62,18 @@
             {
               "href": "/the-forge-codes-faq",
               "name": "FAQ"
+            },
+            {
+              "href": "/the-forge-wiki",
+              "name": "Wiki"
+            },
+            {
+              "href": "/the-forge-beginner-guide",
+              "name": "Beginner Guide"
+            },
+            {
+              "href": "/the-forge-race-tier-list",
+              "name": "Race Tier List"
             }
           ]
         },
@@ -412,5 +428,45 @@
     "expiredLabel": "expired",
     "addedLabel": "added",
     "expiredEvents": "expired events"
+  },
+  "ForgeWiki": {
+    "title": "The Forge Wiki — Complete Roblox Game Guide (2026)",
+    "description": "Complete wiki for The Forge on Roblox. Covers races, ores, pickaxes, weapons, armor, runes, quests, and all game mechanics in one guide."
+  },
+  "RaceTierList": {
+    "title": "The Forge Race Tier List — All 16 Races Ranked (2026)",
+    "description": "Complete tier list ranking all 16 races in The Forge on Roblox. Includes drop rates, traits, reroll strategy, and best race recommendations."
+  },
+  "OresGuide": {
+    "title": "All Ores in The Forge — Complete Mining Guide (2026)",
+    "description": "Full list of every ore in The Forge on Roblox sorted by region and rarity. Includes mining tips, rare ore locations, and crafting recipes."
+  },
+  "PickaxesGuide": {
+    "title": "All Pickaxes in The Forge — Guide & Tier List (2026)",
+    "description": "Complete pickaxe guide for The Forge on Roblox. Every pickaxe ranked with stats, prices, upgrade paths, and hidden pickaxe locations."
+  },
+  "WeaponsGuide": {
+    "title": "All Weapons in The Forge — Crafting Guide & Tier List (2026)",
+    "description": "Full weapon list and tier list for The Forge on Roblox. Covers crafting recipes, ore requirements, forging tips, and best weapon builds."
+  },
+  "EnemiesGuide": {
+    "title": "All Enemies in The Forge — Complete Combat Guide (2026)",
+    "description": "Every enemy and boss in The Forge on Roblox listed by region with HP, damage, loot drops, and combat strategies for each encounter."
+  },
+  "RunesGuide": {
+    "title": "The Forge Runes Guide — All Runes & Best Builds (2026)",
+    "description": "Complete rune guide for The Forge on Roblox. All runes listed with effects, best build combinations for mining, combat, and hybrid playstyles."
+  },
+  "BeginnerGuide": {
+    "title": "The Forge Beginner Guide — How to Play (2026)",
+    "description": "Step-by-step beginner guide for The Forge on Roblox. Covers first 30 minutes, core mechanics, common mistakes, and tips to progress fast."
+  },
+  "TotemsGuide": {
+    "title": "All Totems in The Forge — Complete Guide (2026)",
+    "description": "Every totem in The Forge on Roblox explained. Covers effects, duration, pricing, free totem codes, and which totems to prioritize."
+  },
+  "QuestsGuide": {
+    "title": "All Quests in The Forge — Complete Guide & Rewards (2026)",
+    "description": "Full quest list for The Forge on Roblox with NPC locations, objectives, rewards, and recommended completion order."
   }
 }

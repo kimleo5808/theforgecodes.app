@@ -22,6 +22,10 @@
       {
         "name": "历史记录",
         "href": "/the-forge-codes-history"
+      },
+      {
+        "name": "百科",
+        "href": "/the-forge-wiki"
       }
     ]
   },
@@ -58,6 +62,18 @@
             {
               "href": "/the-forge-codes-faq",
               "name": "常见问题"
+            },
+            {
+              "href": "/the-forge-wiki",
+              "name": "百科"
+            },
+            {
+              "href": "/the-forge-beginner-guide",
+              "name": "新手指南"
+            },
+            {
+              "href": "/the-forge-race-tier-list",
+              "name": "种族排行"
             }
           ]
         },
@@ -412,5 +428,45 @@
     "expiredLabel": "过期",
     "addedLabel": "新增",
     "expiredEvents": "过期事件"
+  },
+  "ForgeWiki": {
+    "title": "The Forge 百科 — 完整 Roblox 游戏指南 (2026)",
+    "description": "The Forge Roblox 完整百科。涵盖种族、矿石、镐子、武器、盔甲、符文、任务及所有游戏机制。"
+  },
+  "RaceTierList": {
+    "title": "The Forge 种族排行榜 — 全部16个种族排名 (2026)",
+    "description": "The Forge Roblox 完整种族排行榜。包含掉率、特性、重置策略及最佳种族推荐。"
+  },
+  "OresGuide": {
+    "title": "The Forge 矿石大全 — 完整挖矿指南 (2026)",
+    "description": "The Forge Roblox 所有矿石按区域和稀有度分类。包含挖矿技巧、稀有矿石位置和锻造配方。"
+  },
+  "PickaxesGuide": {
+    "title": "The Forge 镐子大全 — 指南与排行榜 (2026)",
+    "description": "The Forge Roblox 完整镐子指南。所有镐子属性、价格、升级路线及隐藏镐子位置。"
+  },
+  "WeaponsGuide": {
+    "title": "The Forge 武器大全 — 锻造指南与排行榜 (2026)",
+    "description": "The Forge Roblox 完整武器列表和排行榜。涵盖锻造配方、矿石需求、锻造技巧及最佳武器搭配。"
+  },
+  "EnemiesGuide": {
+    "title": "The Forge 敌人大全 — 完整战斗指南 (2026)",
+    "description": "The Forge Roblox 所有敌人和Boss按区域列出，包含血量、伤害、掉落物及战斗策略。"
+  },
+  "RunesGuide": {
+    "title": "The Forge 符文指南 — 全部符文与最佳搭配 (2026)",
+    "description": "The Forge Roblox 完整符文指南。所有符文效果、挖矿/战斗/混合最佳搭配方案。"
+  },
+  "BeginnerGuide": {
+    "title": "The Forge 新手指南 — 如何开始游戏 (2026)",
+    "description": "The Forge Roblox 新手入门指南。涵盖前30分钟攻略、核心机制、常见错误及快速进阶技巧。"
+  },
+  "TotemsGuide": {
+    "title": "The Forge 图腾大全 — 完整指南 (2026)",
+    "description": "The Forge Roblox 所有图腾详解。涵盖效果、持续时间、价格、免费图腾代码及优先购买建议。"
+  },
+  "QuestsGuide": {
+    "title": "The Forge 任务大全 — 完整指南与奖励 (2026)",
+    "description": "The Forge Roblox 完整任务列表，包含NPC位置、目标、奖励及推荐完成顺序。"
   }
 }
