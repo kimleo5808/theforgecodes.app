@@ -13,7 +13,7 @@ export default async function Footer() {
 
   return (
     <footer className="mt-12 w-full border-t border-indigo-100 bg-slate-950 text-slate-300 dark:border-indigo-900/40">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-5 lg:px-8">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-6 lg:px-8">
         <div className="lg:col-span-2">
           <h2 className="font-heading text-2xl font-black text-white">
             {t("title")}
