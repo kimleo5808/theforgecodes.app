@@ -126,6 +126,29 @@
               "name": "服务条款"
             }
           ]
+        },
+        {
+          "title": "友站",
+          "links": [
+            {
+              "href": "https://steal-brainrot.co/",
+              "name": "Steal a Brainrot",
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            {
+              "href": "https://minutecryptic.org/",
+              "name": "Minute Cryptic",
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            {
+              "href": "https://contador-de-palabras.com/",
+              "name": "Contador de Palabras",
+              "target": "_blank",
+              "rel": "noopener"
+            }
+          ]
         }
       ]
     }
