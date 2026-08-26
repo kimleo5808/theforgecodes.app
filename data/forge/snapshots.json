@@ -4,341 +4,6 @@
   "monthlySearchEstimate": "421K",
   "snapshots": [
     {
-      "date": "2026-02-25",
-      "generatedAt": "2026-02-25T09:27:58.066Z",
-      "lastVerified": "February 25 2026 at 09:27 UTC",
-      "activeCodes": [
-        {
-          "code": "REROLLS",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "REROLL",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "DELAYCOMPENSATION",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "CRIMSONSAKURA",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "SORRYFORDELAYY",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "FORGE2M",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "SORRYFORBUGS",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "20KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "100KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "40KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "10KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "15KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "FORGEWEEKEND3",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "BETARELEASE",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "POSTRELEASEQNA",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, dexerto, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "FORGEWEEKEND2",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "FORGED",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "HAPPYNEWYEAR",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "FORGWEEKEND",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        },
-        {
-          "code": "5KLIKES",
-          "reward": "Reward not listed by source pages",
-          "status": "active",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom",
-          "note": "Auto-collected from public pages. Verify in-game before use."
-        }
-      ],
-      "expiredCodes": [
-        {
-          "code": "FORGEWEEKEND5",
-          "reward": "Reward not listed by source pages",
-          "status": "expired",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom, pcgamer"
-        },
-        {
-          "code": "FORGEWEEKEND4",
-          "reward": "Reward not listed by source pages",
-          "status": "expired",
-          "lastTested": "2026-02-25 09:27 UTC",
-          "source": "tryhardguides, beebom"
-        }
-      ],
-      "updateLog": [
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "REROLLS",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "REROLL",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "DELAYCOMPENSATION",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "CRIMSONSAKURA",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "SORRYFORDELAYY",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "FORGE2M",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "SORRYFORBUGS",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "20KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "100KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "40KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "10KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "15KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "FORGEWEEKEND3",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "BETARELEASE",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "POSTRELEASEQNA",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "FORGEWEEKEND2",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "FORGED",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "HAPPYNEWYEAR",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "FORGWEEKEND",
-          "summary": "Still listed as active in latest source refresh."
-        },
-        {
-          "time": "2026-02-25 09:27 UTC",
-          "event": "retested",
-          "code": "5KLIKES",
-          "summary": "Still listed as active in latest source refresh."
-        }
-      ],
-      "sources": [
-        {
-          "name": "tryhardguides",
-          "url": "https://tryhardguides.com/the-forge-codes/",
-          "ok": true,
-          "fetchedAt": "2026-02-25T09:27:58.066Z",
-          "foundCodes": 43
-        },
-        {
-          "name": "beebom",
-          "url": "https://beebom.com/roblox-the-forge-codes/",
-          "ok": true,
-          "fetchedAt": "2026-02-25T09:27:58.066Z",
-          "foundCodes": 34
-        },
-        {
-          "name": "dexerto",
-          "url": "https://www.dexerto.com/roblox/the-forge-codes-3287134/",
-          "ok": true,
-          "fetchedAt": "2026-02-25T09:27:58.066Z",
-          "foundCodes": 17
-        },
-        {
-          "name": "pcgamer",
-          "url": "https://www.pcgamer.com/roblox/the-forge-codes/",
-          "ok": true,
-          "fetchedAt": "2026-02-25T09:27:58.066Z",
-          "foundCodes": 37
-        }
-      ]
-    },
-    {
       "date": "2026-02-26",
       "generatedAt": "2026-02-26T17:37:14.510Z",
       "lastVerified": "February 26 2026 at 17:37 UTC",
@@ -66331,6 +65996,376 @@
           "url": "https://www.pcgamer.com/roblox/the-forge-codes/",
           "ok": true,
           "fetchedAt": "2026-08-25T17:06:04.846Z",
+          "foundCodes": 50
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "generatedAt": "2026-08-26T02:04:51.751Z",
+      "lastVerified": "August 26 2026 at 02:04 UTC",
+      "activeCodes": [
+        {
+          "code": "REROLLS",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, dexerto, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "REROLL",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, dexerto, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS12",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGE2M",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "20KLIKES",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "LOWGRAPHICS",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "100KLIKES",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "40KLIKES",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "10KLIKES",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "15KLIKES",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "BETARELEASE",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, dexerto, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKEND2",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKEND3",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKEND5",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "POSTRELEASEQNA",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, dexerto, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS10",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS5",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS6",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        },
+        {
+          "code": "FORGEWEEKENDS7",
+          "reward": "Reward not listed by source pages",
+          "status": "active",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer",
+          "note": "Auto-collected from public pages. Verify in-game before use."
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "FORGEWEEKENDS11",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "tryhardguides, beebom, pcgamer"
+        },
+        {
+          "code": "FORGEWEEKENDS14",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "beebom, pcgamer"
+        },
+        {
+          "code": "FORGEWEEKENDS13",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-08-26 02:04 UTC",
+          "source": "beebom"
+        },
+        {
+          "code": "FORGEWEEKENDS8",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-08-11 17:29 UTC",
+          "source": "beebom, pcgamer"
+        },
+        {
+          "code": "FORGEWEEKENDS9",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-08-11 17:29 UTC",
+          "source": "beebom, pcgamer"
+        },
+        {
+          "code": "1BVISITS",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-05-16 17:30 UTC",
+          "source": "beebom"
+        },
+        {
+          "code": "FORGEWEEKEND4",
+          "reward": "Reward not listed by source pages",
+          "status": "expired",
+          "lastTested": "2026-03-04 17:10 UTC",
+          "source": "tryhardguides, beebom"
+        }
+      ],
+      "updateLog": [
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "REROLLS",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "REROLL",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS12",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGE2M",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "20KLIKES",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "LOWGRAPHICS",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "100KLIKES",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "40KLIKES",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "10KLIKES",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "15KLIKES",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "BETARELEASE",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKEND2",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKEND3",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKEND5",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "POSTRELEASEQNA",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS10",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS5",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS6",
+          "summary": "Still listed as active in latest source refresh."
+        },
+        {
+          "time": "2026-08-26 02:04 UTC",
+          "event": "retested",
+          "code": "FORGEWEEKENDS7",
+          "summary": "Still listed as active in latest source refresh."
+        }
+      ],
+      "sources": [
+        {
+          "name": "tryhardguides",
+          "url": "https://tryhardguides.com/the-forge-codes/",
+          "ok": true,
+          "fetchedAt": "2026-08-26T02:04:51.751Z",
+          "foundCodes": 54
+        },
+        {
+          "name": "beebom",
+          "url": "https://beebom.com/roblox-the-forge-codes/",
+          "ok": true,
+          "fetchedAt": "2026-08-26T02:04:51.751Z",
+          "foundCodes": 46
+        },
+        {
+          "name": "dexerto",
+          "url": "https://www.dexerto.com/roblox/the-forge-codes-3287134/",
+          "ok": true,
+          "fetchedAt": "2026-08-26T02:04:51.751Z",
+          "foundCodes": 15
+        },
+        {
+          "name": "pcgamer",
+          "url": "https://www.pcgamer.com/roblox/the-forge-codes/",
+          "ok": true,
+          "fetchedAt": "2026-08-26T02:04:51.751Z",
           "foundCodes": 50
         }
       ]
